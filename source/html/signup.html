@@ -9,15 +9,15 @@
 <body>
 	<form class="frame">
 		<h1>Sign Up</h1>
-		<input type="text" name="" placeholder="Username">
-		<input type="email" name="" placeholder="E-Mail">
-		<input type="password" name="" placeholder="Password">
-		<input type="password" name="" placeholder="Confirmation">
+		<input type="text" name="" placeholder="Username" id="usrname">
+		<input type="email" name="" placeholder="E-Mail" id="email">
+		<input type="password" name="" placeholder="Password" id="passwd">
+		<input type="password" name="" placeholder="Confirmation" id="confpasswd">
 		<span id="dob">Date Of Birth</span><br><input type="date" name="">
 		<input type="radio" name="gender" value="male"><b>Male</b>
 		<input type="radio" name="gender" value="female"><b>Female</b><br> <!-- Choose wisely there is no other choices x) -->
 		<input type="checkbox" name="" value="terms" checked=""><a href=""><u>I Agree To The Terms Of Use</u></a>
-		<a href=""><input type="submit" name="" value="Sign Up" ></a>
+		<a ><input type="submit" name="" value="Sign Up" onclick="SaveCreds()"></a>
 		<p>Already Have An Account ?</p>
 		<a href="signin.html"><p id="si">Sign In</p></a>
 	</form>
