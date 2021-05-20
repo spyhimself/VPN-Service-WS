@@ -1,13 +1,17 @@
 function SaveCreds() {
-    var username = document.getElementById("usrname").value;
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("passwd").value;
-    if (password != document.getElementById("confpasswd").value)
+    if (document.getElementById("passwd").value != document.getElementById("confpasswd").value)
     {
         alert("Password missmatch !");
         window.location.reload();
     }
-    window.localStorage.setItem("email", email);
-    window.localStorage.setItem("username", username);
-    window.localStorage.setItem("password", password);
+    if ( ! document.getElementById("terms").checked)
+    {
+        alert("Accept the terms...");
+        return;
+    }
+    window.localStorage.setItem("email", document.getElementById("email").value);
+    window.localStorage.setItem("username", document.getElementById("usrname").value);
+    window.localStorage.setItem("password", document.getElementById("passwd").value);
+    window.localStorage.setItem("birthday", document.getElementById("birthday").value);
+    window.localStorage.setItem("gender", document.getElementById("gender").checked ? "male" : "female");
 }
