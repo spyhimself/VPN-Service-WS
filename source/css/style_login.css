@@ -48,3 +48,8 @@ body{
   cursor: pointer;
   margin: 12px 0;
 }
+.btn:hover
+{
+  background: #4caf50;
+
+}

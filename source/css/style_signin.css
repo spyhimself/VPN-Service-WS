@@ -1,0 +1,90 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #34495e;
+
+}
+.frame
+{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+
+}
+.frame input[type="text"],.frame input[type="password"]
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+
+}
+.frame h1
+{
+	color: white;
+	text-transform: uppercase;
+
+}
+.frame input[type="text"]:focus,.frame input[type="password"]:focus
+{
+	width: 280px;
+	border-color: #2ecc71;
+
+}
+.frame input[type="button"]
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.frame input[type="button"]:hover
+{
+	background: #2ecc71;
+}
+a
+{
+	text-decoration: none;
+}
+p
+{
+	border: 0;
+	background: none;
+	margin: 20px auto;
+	text-align: center;
+	color: white;
+	text-decoration-line: underline;
+}
+#sun
+{
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #2ecc71;
+}
+#sun:hover
+{
+	text-decoration-line: underline;
+}

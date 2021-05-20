@@ -1,0 +1,112 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #191919;
+
+}
+.frame
+{
+	width: 400px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #34495e;
+	text-align: center;
+
+}
+.frame input[type="text"],.frame input[type="password"],.frame input[type="email"],.frame input[type="date"]
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+
+}
+.frame input[type="radio"]
+{
+	margin: 20px 6px;
+}
+b,u,#dob /* again choose wisely xD */
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: #191919;
+}
+u
+{
+	letter-spacing: 2px;
+}
+.frame input[type="checkbox"]
+{
+	margin: 10px;
+
+}
+h1
+{
+	color: white;
+	text-transform: uppercase;
+}
+.frame input[type="text"]:focus,.frame input[type="password"]:focus,.frame input[type="email"]:focus
+{
+	width: 300px;
+	border-color: #191919;
+}
+.frame input[type="submit"]
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 14px auto;
+	text-align: center;
+	border: 2px solid #191919;
+	padding: 16px 50px;
+	outline: none;
+	color: white;
+	border-radius: 26px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.frame input[type="submit"]:hover
+{
+	background: #191919;
+}
+a
+{
+	text-decoration: none;
+}
+u:hover
+{
+	color: #2ecc71;
+	transition: 0.5s;
+}
+p
+{
+	border: 0;
+	background: none;
+	margin: 20px auto;
+	text-align: center;
+	color: white;
+	text-decoration-line: underline;
+}
+#si
+{
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #2ecc71;
+}
+#si:hover
+{
+	text-decoration-line: underline;
+}
