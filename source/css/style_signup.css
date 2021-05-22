@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background: #191919;
+	background: #34495e;
 
 }
 .frame
@@ -13,7 +13,7 @@ body{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	background: #34495e;
+	background: #191919;
 	text-align: center;
 
 }
@@ -41,7 +41,7 @@ b,u,#dob /* again choose wisely xD */
 {
 	font-size: 16px;
 	font-weight: bold;
-	color: #191919;
+	color: #34495e;
 }
 u
 {
@@ -60,7 +60,7 @@ h1
 .frame input[type="text"]:focus,.frame input[type="password"]:focus,.frame input[type="email"]:focus
 {
 	width: 300px;
-	border-color: #191919;
+	border-color: #34495e;
 }
 .frame input[type="submit"]
 {
@@ -69,7 +69,7 @@ h1
 	display: block;
 	margin: 14px auto;
 	text-align: center;
-	border: 2px solid #191919;
+	border: 2px solid #34495e;
 	padding: 16px 50px;
 	outline: none;
 	color: white;
@@ -79,7 +79,7 @@ h1
 }
 .frame input[type="submit"]:hover
 {
-	background: #191919;
+	background: #34495e;
 }
 a
 {

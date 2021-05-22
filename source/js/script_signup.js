@@ -9,9 +9,12 @@ function SaveCreds() {
         alert("Accept the terms...");
         window.location.reload();
     }
+    
+    
     window.localStorage.setItem("email", document.getElementById("email").value);
     window.localStorage.setItem("username", document.getElementById("usrname").value);
     window.localStorage.setItem("password", document.getElementById("passwd").value);
     window.localStorage.setItem("birthday", document.getElementById("birthday").value);
-    window.localStorage.setItem("gender", document.getElementById("gender").checked ? "male" : "female");
+    window.localStorage.setItem("gender", document.getElementById("gender").checked ? "Male" : "Female");
+    window.location = "signin.html";
 }

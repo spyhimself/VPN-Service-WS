@@ -23,3 +23,8 @@ td{
     height: 40px;
 }
 
+input{
+    background-color: transparent;
+    border: solid;
+}
+
