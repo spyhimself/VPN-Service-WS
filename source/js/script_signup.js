@@ -7,7 +7,7 @@ function SaveCreds() {
     if ( ! document.getElementById("terms").checked)
     {
         alert("Accept the terms...");
-        return;
+        window.location.reload();
     }
     window.localStorage.setItem("email", document.getElementById("email").value);
     window.localStorage.setItem("username", document.getElementById("usrname").value);
