@@ -28,7 +28,8 @@ function changegen() {
 }
 
 function SetNew() {
-    
+    var tochange = username.innerHTML.indexOf("input") != -1 ? username : password.innerHTML.indexOf("input") != -1 ? password : email.innerHTML.indexOf("input") != -1 ? email :
+    birthday.innerHTML.indexOf("input") != -1 ? birthday : gender;
 }
 
 function resettxt() {
