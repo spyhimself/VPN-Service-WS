@@ -1,6 +1,7 @@
 if (! window.localStorage.getItem("IsConnected") || window.localStorage.getItem("IsConnected") == "false")
 {
-    alert("not connected"); //need to redirect to the sign in page
+    alert("Not connected !\nYou will be redirected to the sign in page"); //need to redirect to the sign in page
+    window.location = "signin.html";
 }
 var username = document.getElementById("username");
 var email = document.getElementById("email");
