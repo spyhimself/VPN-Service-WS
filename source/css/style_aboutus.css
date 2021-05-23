@@ -4,70 +4,7 @@ body
 	margin: 0;
 	font-family: sans-serif;
 	background: #fff;
-
 }
-.tou{
-  width: 100%;
-  
-  height: 500px;
-  background-color: #191919;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  
-}
-
-#mt{
-  letter-spacing: 3px;
-  color: #fff;
-  font-size: 5em;
-  align-self: center;
-  
-}
-
-
-.hot
-{
-  display: flex;
-  width: 100%;
-  text-align: justify;
-  flex-direction: column;
-
-}
-.hot > span{
-  margin: -35px 100px;
-  font-size: 15px;
-}
-
-#today
-{
-  font-size: 1em;
-  align-self: center;
-  justify-content: center;
-  border-bottom: solid 1px;
-  padding: 0 55em 20px 55em;
-}
-
-.hot h5
-{
-  letter-spacing: 1px;
-  margin: 75px 0 0 100px;
-  text-decoration: underline;
-}
-
-.hot p{
-  margin: 50px 100px 0 100px;
-  font-size: 20px;
-}
-
-.hot ul li{
-  margin: 0px 100px 0px 100px;
-  text-align: justify;
-  font-style: italic;
-  font-size: 15px;
-}
-
-
 
 .contener{
   background: #34495e;
@@ -89,15 +26,12 @@ h1{
 	
 	float: right;
 	line-height: 10px;
-  text-decoration: underline;
-  cursor: pointer;
-}
-#indentifier:hover{
-  color: rebeccapurple;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 footer{
-	position: relative;
+	position: absolute;
 	background-color: #2ecc71;
 	height: 100px;
 	bottom: 0;
@@ -111,7 +45,6 @@ footer{
 	text-align: center;
 }
 #foot p{
-  margin: 20px;
 	letter-spacing: 3px;
 	font-size: 20px;
 }
@@ -152,9 +85,6 @@ ul a:hover,.smb:hover,.hmb:hover,i:hover{
   position: absolute;
   visibility: hidden;
 }
-
-
-
 
 
 @media only screen and (max-width: 800px) {
