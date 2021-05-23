@@ -7,8 +7,8 @@ function LoadCheckCreds() {
 
     if (original_password === login_password && original_username === login_username)
     {
-        document.localStorage.setItem("IsConnected", "true");
-        alert("GOT IT RIGHT");  //case if the password is correct: normally this will redirect us to the user account configuration page
+        window.localStorage.setItem("IsConnected", "true");
+        window.location = "../index.html"
     }
     else
     {
