@@ -3,7 +3,11 @@ body
 	padding: 0;
 	margin: 0;
 	font-family: sans-serif;
-	background: #fff;
+	
+}
+html{
+  background-image: url("../media/bgaboutus.png");
+  background-size: cover;
 }
 
 .contener{
@@ -30,14 +34,11 @@ h1{
 }
 
 footer{
-	position: absolute;
+	/* position: absolute; */
 	background-color: #2ecc71;
 	height: 100px;
 	bottom: 0;
 	width: 100%;
-
-	
-
 }
 #foot{
 	position: relative;
@@ -136,21 +137,56 @@ ul a:hover,.smb:hover,.hmb:hover,i:hover{
 
 
 #sorrowbox{
-  background: linear-gradient(92.83deg, rgb(94, 159, 170) 0%, rgb(88, 160, 59) 100%);
+  background: linear-gradient(to right, #3d7eaa, #ffe47a);
   height: 600px;
   width: 500px;
   border-radius: 50px 20px;
-  position: relative;
-  top: 100px;
+  position: absolute;
+  top: 200px;
   left: 10%;
+  margin-bottom: 100px;
 }
 
 #spybox{
-  background: linear-gradient(92.83deg, rgb(88, 160, 59) 0%, rgb(94, 159, 170) 100%);
+  background: linear-gradient(to right, #3d7eaa, #ffe47a);
   height: 600px;
   width: 500px;
   border-radius: 20px 50px;
   position: absolute;
   top: 200px;
   left: 60%;
+  margin-bottom: 100px;
+}
+
+.textbox{
+  height: 500px;
+  width: 450px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 25px;
+  left: 25px;
+  box-shadow: 0 0 20px;
+  border-radius: 20px;
+}
+
+.textbox span{
+  border: 4px ridge #20bcd5;
+  color: #34495E;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15pt;
+  text-align: center;
+}
+
+.textbox h3{
+  position: relative;
+  top: 40px;
+  left: 140px;
+}
+
+.textbox p{
+  position: relative;
+  top: 100px;
+  margin: 20px;
+  color: #34495E;
+  font-family: 'Handlee', cursive;
 }
