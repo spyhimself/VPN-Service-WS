@@ -42,4 +42,14 @@ function resettxt() {
     password.textContent = window.localStorage.getItem("password");
     birthday.textContent = window.localStorage.getItem("birthday");
     gender.textContent = window.localStorage.getItem("gender");
+    document.getElementById("identifier").innerText = window.localStorage.getItem("username") + "\n\nClick here !";
+}
+
+function imoutofnames() {
+    if (window.localStorage.getItem("IsConnected") == "true")
+    {
+        window.location = "compte.html";
+        return;
+    }
+    window.location = "signin.html";
 }

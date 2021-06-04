@@ -1,12 +1,132 @@
-html{
-    background-color: blanchedalmond;
+body
+{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	background-image: url("../media/bg1.jpg");
+    background-size: cover;
+    
 }
 
-table {
-    position:absolute;
-    top: 20%;
-    left: 25%;
-    width: 50%;
+.contener{
+  background: #34495e;
+  color: #fff;
+  height: 100px;
+  padding: 0 20px;
+  
+}
+
+h1{
+
+  	line-height: 80px;
+  	float: left;
+  	font-size: 2em;
+
+  
+}
+#identifier{
+	
+	float: right;
+	line-height: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer{
+	position: absolute;
+	background-color: #2ecc71;
+	height: 100px;
+	bottom: 0;
+	width: 100%;
+
+	
+
+}
+#foot{
+	position: relative;
+	text-align: center;
+}
+#foot p{
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+
+ul{
+
+  	float: right;
+  	line-height: 100px;
+
+}
+ul a{
+
+	font-size: 1.5rem;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 20px;
+	transition: 0.4s;
+}
+
+.smb,.hmb{
+  transition: 0.4s;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.smb{
+  float: right;
+}
+.smb i{
+  line-height: 100px;
+}
+ul a:hover,.smb:hover,.hmb:hover,i:hover{
+  color: #2ecc71;
+}
+
+#check{
+  position: absolute;
+  visibility: hidden;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .smb,.hmb{
+    display: block;
+}
+h1{
+	
+	padding: 0 80px;
+}
+ ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    transition: 0.7s;
+ }
+ ul a{
+    display: block;
+    padding: 20px;
+ }
+
+ .hmb{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+ }
+ #check:checked ~ ul{
+    right: 0;
+    z-index: 1;
+  }
+  footer{
+  	z-index: 0;
+  }
 }
 
 table ,th, td{
@@ -15,10 +135,9 @@ table ,th, td{
 }
 
 td{
-    padding-left: 300px;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    position: relative;
     width: 500px;
     height: 40px;
 }
@@ -28,3 +147,21 @@ input{
     border: solid;
 }
 
+table{
+    width: 600px;
+    position: relative;
+    top: 20px;
+    left: 480px;
+    /* background-color: rgba(37, 37, 37, 0.61); */
+    backdrop-filter: blur(40px);
+}
+
+.thetable{
+    color: whitesmoke;
+}
+
+.infos{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}

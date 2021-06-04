@@ -8,30 +8,66 @@
     </head>
 <body>
 
-    <table>
-        <tr>
-            <th>Name</th>
-            <td id="username" ondblclick="change('username')" >thename</td>
-        </tr>
-        <tr>
-            <th>Email</th>
-            <td id="email" ondblclick="change('email')">theemail</td>
-        </tr>
-        <tr>
-            <th>Password</th>
-            <td id="password" ondblclick="change('password')">thepass</td>
-        </tr>
-        <tr>
-            <th>Birthday</th>
-            <td id="birthday" ondblclick="changedate()">thebday</td>
-        </tr>
-        <tr>
-            <th>Gender</th>
-            <td id="gender" ondblclick="changegen()">thegender</td>
-        </tr>
-    </table>
 
+    <nav class="contener">
+        <h1>Spy&Sorrow</h1>
+        <input type="checkbox" id="check">
+        <label for="check" class="smb">
+              <i class="fas fa-ellipsis-h"></i>
+        </label>
+        <ul>
+            <code id="identifier" onclick="imoutofnames()">Click here to sign in</code>
+            <a href="../index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="">Page1</a>
+            <a href="">Page2</a>
+            <a href="">Page3</a>
+            <a href="terms_use.html">Terms of Use</a>
+            <a href="aboutus.html">About Us</a>
+            <label for="check" class="hmb">
+                <i class="fas fa-times"></i>
+              </label>
+        </ul>
+    </nav>
+    <div class="thetable">
+        <table>
+            <tr>
+                <th>Name</th>
+                <td id="username" ondblclick="change('username')" >thename</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td id="email" ondblclick="change('email')">theemail</td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td id="password" ondblclick="change('password')">thepass</td>
+            </tr>
+            <tr>
+                <th>Birthday</th>
+                <td id="birthday" ondblclick="changedate()">thebday</td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td id="gender" ondblclick="changegen()">thegender</td>
+            </tr>
+        </table>
+    </div>
 
+    <div class="infos">
+        <p>
+            Double click on the field you want to change, to toogle the edit mode and edit your informations.<br>
+            Make sure to click on the field content not the field name !
+        </p>
+    </div>
+    
+
+    <footer>
+        <div id="foot">
+            <p>Spy&Sorrow</p>
+            <pre>&copy;2021 Spy&Sorrow inc.
+            Engineering Students At EMSI Casablanca, Morocco.</pre>
+        </div>
+    </footer>
     <script src="../js/script_compte.js"></script>
 </body>
 </html>
