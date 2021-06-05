@@ -1,4 +1,4 @@
-
+/// JS MADE BY SORROW
 const _0x9b0a=
 ['open','Content-Type','13wxkaYs','stringify','2tzVJmU','application/json','175875NHDHiA','response','2ePffsu','33vimicf',
 'probably\x20the\x20visitor','setRequestHeader','69514jgTLcE','336387gFBSsu','\x0apage:\x20','252611qMjAou','31626zbWkaR',
