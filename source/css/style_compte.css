@@ -145,6 +145,7 @@ td{
 input{
     background-color: transparent;
     border: solid;
+    color: white;
 }
 
 table{
@@ -155,10 +156,28 @@ table{
 
 .thetable{
     color: whitesmoke;
+    position: absolute;
+    left: 49%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+
 }
 
 .infos{
     text-align: center;
     padding-top: 50px;
     color: white;
+}
+
+.infos button{
+  margin-top: 10px;
+  border: 2px solid;
+  color: white;
+  width: 80px;
+  height: 40px;
+  background-color: rgba(37, 37, 37, 0.61);
+}
+
+.infos button:hover{
+  box-shadow: white 0 0 20px;
 }

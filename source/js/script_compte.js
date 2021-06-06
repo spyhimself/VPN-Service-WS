@@ -53,3 +53,5 @@ function imoutofnames() {
     }
     window.location = "signin.html";
 }
+
+const logout=()=>{window.localStorage.setItem("IsConnected", "false");window.location.reload();}
