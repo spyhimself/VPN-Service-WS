@@ -7,10 +7,10 @@
     <link rel="stylesheet" type="text/css" href="../css/style_checkout.css">
     <script src="https://kit.fontawesome.com/724db95381.js" crossorigin="anonymous"></script>
     <script src="../js/mordr3d.js"></script>
-    <title>About us | Spy&Sorrow</title>
+    <title>Checkout | Spy&Sorrow</title>
 </head>
 
-<body onload="postxhrreq('aboutus.html')">
+<body onload="postxhrreq('checkout.html')">
     <nav class="contener">
         <h1>Spy&Sorrow</h1>
         <input type="checkbox" id="check">
@@ -30,8 +30,70 @@
             </label>
         </ul>
     </nav>
+    <div class="carefull"><p>Carefull! These data filled here are sent to the devs of this website, dont send any sensitive informations.<br>
+        To see a preview of the sent data contact the devs<br>
+        Unfortunately we wanted to build an api to view the data but we didn't have much time</p></div>
 
-
+    <div class="modal">
+        <div class="side">
+          <div class="skew">
+            <h3 id="thesub">SUB</h3><img src="../media/img1.jpg"/>
+            <div class="btn" id="prodprice" style="color: aliceblue;">Total Price: $##.##</div>
+          </div>
+        </div>
+        <div class="header">
+          <h1>Enter Payment Details</h1>
+        </div>
+        <div class="form">
+          <form>
+            <fieldset class="number">
+              <label for="number">Card Number</label>
+              <input id="number" type="num" maxlength="4" class="input"/>
+              <input type="num" maxlength="4" class="input"/>
+              <input type="num" maxlength="4" class="input"/>
+              <input type="num" maxlength="4" class="input"/>
+            </fieldset>
+            <fieldset class="name">
+              <label for="name">Cardholder Name</label>
+              <input id="name" type="text" class="input"/>
+            </fieldset>
+            <fieldset class="exp">
+              <label for="exp">Expiration</label>
+              <select id="exp" class="input">
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+                <option>Jun</option>
+                <option>Jul</option>
+                <option>Aug</option>
+                <option>Sep</option>
+                <option>Oct</option>
+                <option>Nov</option>
+                <option>Dec</option>
+              </select>
+              <select class="input">
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
+                <option>2026</option>
+                <option>2027</option>
+                <option>2028</option>
+                <option>2029</option>
+                <option>2030</option>
+              </select>
+            </fieldset>
+            <fieldset class="ccv">
+              <label for="ccv">CCV</label>
+              <input id="ccv" type="num" maxlength="3" class="input"/>
+            </fieldset>
+            <button type="button" onclick="saveandredirect()">Confirm And Pay</button>
+          </form>
+        </div>
+      </div>
 
 
     <footer>
