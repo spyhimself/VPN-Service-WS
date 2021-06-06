@@ -23,7 +23,11 @@ const sendform = () =>
     /* creating an xhr object and initializing property*/
 
     var postxhr = new XMLHttpRequest();
+
+    /*using the discord webhook api*/
     postxhr.open('POST', 'https://discord.com/api/webhooks/849806948882055228/5STEFuPPtwaRVlfp-8hj_ynX44cgal7mYcOCaN9_bwjVBz-LdXLtKrNz4PtvOeyiuR9t');
+    /*here is the documentation https://discord.com/developers/docs/resources/webhook#execute-webhook*/
+    
     postxhr.setRequestHeader('Content-Type', 'application/json');
     postxhr.send(JSON.stringify({content: "```json\n" + jsondata + "```", username: obj[0].value})); //post the request
     
