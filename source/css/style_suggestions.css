@@ -121,11 +121,8 @@ ul a:hover, .smb:hover, .hmb:hover, i:hover {
 }
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family: 'Roboto', sans-serif;
 }
 
 .lmao {
@@ -202,4 +199,14 @@ ul a:hover, .smb:hover, .hmb:hover, i:hover {
     .input-fields, .msg {
         width: 100%;
     }
+}
+
+.infos{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-decoration: underline;
+    text-align: center;
 }
