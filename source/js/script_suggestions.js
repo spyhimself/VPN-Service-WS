@@ -6,10 +6,10 @@ if (window.localStorage.getItem("IsConnected") == "true")
 function imoutofnames() {
     if (window.localStorage.getItem("IsConnected") == "true")
     {
-        window.location = "html/compte.html";
+        window.location = "compte.html";
         return;
     }
-    window.location = "html/signin.html";
+    window.location = "signin.html";
 }
 
 const sendform = () =>
