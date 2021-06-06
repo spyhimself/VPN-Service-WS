@@ -149,9 +149,6 @@ input{
 
 table{
     width: 600px;
-    position: relative;
-    top: 20px;
-    left: 480px;
     /* background-color: rgba(37, 37, 37, 0.61); */
     backdrop-filter: blur(40px);
 }
